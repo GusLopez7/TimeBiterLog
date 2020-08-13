@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  vertical-align: middle;
+}
+body {
+  background:whitesmoke;  /* fallback for old browsers */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  height: auto;
+  width: 95%;
+  position: relative;
+}
+
+#logoLOG {
+  color:#31343D;
+  font-size: 32px;
+}
+
+.container {
+  display: inline-block;
+  height: auto;
+  padding: 20px;
+  background: #F4F5F4;
+  width: 95%;
+  min-height: 300px;
+  text-align: left;
+  position: relative;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding: 5px 10px;
+  color: #999;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 15px;
+  height: 50px;
+  background: #f2f2f2;
+  border: 1px solid #33C1B8;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  line-height: 50px;
+}
+
+button {
+  width: 15%;
+  height: 50px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  margin-left: -6px;
+  font-size: 25px;
+  text-transform: uppercase;
+  outline: 0;
+  background: #519e57;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+table {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 10px 0;
+  text-align: left;
+  list-style: none;
+  color: #374141;
+}
+
+td:hover {
+  border-bottom: 1px solid turquoise;
+}
+
+td:focus {
+  background: #FFF;
+  border:1px solid #50e05e;
+}
+
+.index::before {  
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+}
+
+td {
+  border-collapse: collapse;
+  border: 1px solid lightgray;
+  padding: 10px 10px 10px 10px;
+  background: #F4F5F4;
+  font-size: 14px;
+  position: relative;
+}
+
+.index div{
+  display: inline-block;
+}
+
+#resetBtn{
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  background: #1044ee;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  color: #fff;
+  font-size: 22px;
+}
+#resetBtn:hover{
+  background: #7810ee;
+}
