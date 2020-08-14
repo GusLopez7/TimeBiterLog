@@ -7,7 +7,7 @@ let eventArray = [];
 let storageName = Boolean(devMode) ? "events33" : "events";
 let dateOptions = {
   weekday: "short", year: "numeric", month: "short",
-  day: "numeric", hour: "2-digit", minute: "2-digit"
+  day: "numeric", hour: "2-digit", minute: "2-digit", second: "1-digit"
 };
 
 let logScreen = document.getElementById("logScreen");
